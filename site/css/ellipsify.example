@@ -1,0 +1,7 @@
+<div class="ellipsify">
+    <div class="pre-dots"></div>
+    <div class="dots">&hellip;</div>
+    <!-- your text here -->
+    <span class="hidedots1"></span>
+    <div class="hidedots2"></div>
+</div>

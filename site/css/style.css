@@ -1,0 +1,51 @@
+body, html{background:#fff;}
+body{padding-bottom:20px;}
+nav.navbar{margin-bottom:0;}
+
+.carousel-inner>.item, .carousel-inner>.item>a{height:210px;width:100%;}
+.carousel-inner{background:#325d88;}
+
+.body-content{margin-top:20px;}
+
+.false-title{font-weight:bold;border-bottom:1px solid #E6E6E6;padding-bottom:7px;margin-bottom:30px;}
+.panel-default>.panel-image{padding:0;}
+.panel-default>.panel-body{text-align:justify;height:120px;}
+.panel-default>.panel-body>.ellipsify{font-size:inherit;height:90px /*5x lines*/;width:auto;word-wrap:break-word;background:none;}
+.panel-default>.panel-body>.ellipsify>.pre-dots, 
+.panel-default>.panel-body>.ellipsify>.hidedots2{height:72px /*4x lines*/;}
+.panel-default>.panel-body>.ellipsify>.dots{padding:0 0 0 1px;}
+.panel-default>.panel-footer{word-wrap:break-word;white-space:nowrap;text-overflow:ellipsis;display:block;overflow:hidden}
+
+a.panel-link, a:visited.panel-link, a.panel-link:visited{color:inherit;text-decoration:inherit;}
+a.panel-link:hover>.panel-default,
+a.panel-link:active>.panel-default{border-color:#b7b7b7;color:#5c5c5c;}
+
+
+/* Small devices (tablets, 768px @screen-sm-min and up) */
+@media (max-width: 767px){
+	.navbar-form{width:100%;margin:0;}
+	
+	.panel-default>.panel-body{height:auto;}
+	.panel-default>.panel-body>.ellipsify{height:auto;word-wrap:normal;}
+	.panel-default>.panel-body>.ellipsify>.pre-dots{height:0;}
+	.panel-default>.panel-body>.ellipsify>.dots{display:none;}
+}
+
+a.grid-area, a.grid-area:hover, a.grid-area:link
+a.grid-area:active, a.grid-area:visited{padding-top:10px;padding-bottom:10px;text-transform:none;text-decoration:none;}
+.grid-area-indor{padding-top:10px;padding-left:8px;border-bottom:3px solid;border-left:3px solid;color:white;}
+
+
+a.grid-area{-webkit-transition:background 1s;-o-transition-property:background;-o-transition-duration:1s;-moz-transition-property:background;-moz-transition-duration:1s;transition-property:background;transition-duration:1s;}
+a.grid-area:hover{background:#ddd;}
+
+.c100{background:#FD2A09;border-color:#8c1503;}
+.c75{background:#BF3730;border-color:#6b201c;}
+.c50{background:#FD8409;border-color:#954b01;}
+.c25{background:#FDB409;border-color:#ae7c08;}
+.c0{background:#7ea344;border-color:#526f23;}
+.cx{color:black;background:#eee;border-color:#909090;}
+
+.playerRobot{cursor:pointer;}
+
+footer{line-height:1.42857143;color:#333;margin-top:40px;}

@@ -1,0 +1,126 @@
+{
+    "feeds_read": {
+        "verb": "GET",
+        "path": "/feeds"
+    },
+    "feeds_range": {
+        "verb": "GET",
+        "path": "/feeds/{feed_id}"
+    },
+    "feeds_update": {
+        "verb": "PUT",
+        "path": "/feeds/{feed_id}"
+    },
+    "feeds_list": {
+        "verb": "GET",
+        "path": "/feeds"
+    },
+    "feeds_datastreams_create": {
+        "verb": "POST",
+        "path": "/feeds/{feed_id}/datastreams"
+    },
+    "feeds_datastreams_read": {
+        "verb": "GET",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}"
+    },
+    "feeds_datastreams_range": {
+        "verb": "GET",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}"
+    },
+    "feeds_datastreams_update": {
+        "verb": "PUT",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}"
+    },
+    "feeds_datastreams_delete": {
+        "verb": "DELETE",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}"
+    },
+    "feeds_datastreams_datapoints_delete": {
+        "verb": "DELETE",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}/datapoints/{timestamp}"
+    },
+    "feeds_datastreams_datapoints_range_delete": {
+        "verb": "DELETE",
+        "path": "/feeds/{feed_id}/datastreams/{datastream_id}/datapoints?{range}"
+    },
+    "products_create": {
+        "verb": "POST",
+        "path": "/products"
+    },
+    "products_update": {
+        "verb": "PUT",
+        "path": "/products/{product_id}"
+    },
+    "products_list": {
+        "verb": "GET",
+        "path": "/products"
+    },
+    "products_read": {
+        "verb": "GET",
+        "path": "/products/{product_id}"
+    },
+    "products_delete": {
+        "verb": "DELETE",
+        "path": "/products/{product_id}"
+    },
+    "products_devices_create": {
+        "verb": "POST",
+        "path": "/products/{product_id}/devices"
+    },
+    "products_devices": {
+        "verb": "GET",
+        "path": "/products/{product_id}/devices/{serial_number}"
+    },
+    "products_devices_update": {
+        "verb": "PUT",
+        "path": "/products/{product_id}/devices/{serial_number}"
+    },
+    "products_devices_delete": {
+        "verb": "DELETE",
+        "path": "/products/{product_id}/devices/{serial_number}"
+    },
+    "products_devices_list": {
+        "verb": "GET",
+        "path": "/products/{product_id}/devices"
+    },
+    "devices_activate": {
+        "verb": "GET",
+        "path": "/devices/{activation_code}/activate"
+    },
+    "keys_create": {
+        "verb": "POST",
+        "path": "/keys"
+    },
+    "keys_read": {
+        "verb": "GET",
+        "path": "/keys/{key_id}"
+    },
+    "keys_delete": {
+        "verb": "DELETE",
+        "path": "/keys/{key_id}"
+    },
+    "keys_list": {
+        "verb": "GET",
+        "path": "/keys"
+    },
+    "triggers_create": {
+        "verb": "POST",
+        "path": "/triggers"
+    },
+    "triggers_read": {
+        "verb": "POST",
+        "path": "/triggers/{trigger_id}"
+    },
+    "triggers_update": {
+        "verb": "UPDATE",
+        "path": "/triggers/{trigger_id}"
+    },
+    "triggers_delete": {
+        "verb": "DELETE",
+        "path": "/triggers/{trigger_id}"
+    },
+    "triggers_list": {
+        "verb": "GET",
+        "path": "/triggers"
+    }
+}

@@ -1,0 +1,44 @@
+/* the wrapper */
+.ellipsify {
+    font-size: 12px;
+    line-height: 18px;
+    height: 54px;       /* 3x line height */
+    width: 150px;
+    overflow: hidden;
+    position: relative; /* so we're a positioning parent for the dot hiders */
+    background: white;
+}
+
+/* Used to push down .dots. Can't use absolute positioning, since that
+   would stop the floating. Can't use relative positioning, since that
+   would cause floating in the wrong (namely: original) place. Can't 
+   change height of #dots, since it would have the full width, and
+   thus cause early wrapping on all lines. */
+.pre-dots {
+    float: right;
+    height: 36px;  /* 2x line height (one less than visible lines) */
+}
+
+.dots {
+    float: right; /* to make the text wrap around the dots */
+    clear: right; /* to push us below (not next to) .pre-dots */
+	z-index: 10;
+}
+
+/* hides the dots if the text has *exactly* 3 lines */
+.hidedots1 {
+    background: white;
+    width: 100%;
+    height: 18px;       /* line height */
+    position: absolute; /* otherwise, because of the width, it'll be wrapped */
+	z-index: 11;
+}
+
+/* hides the dots if the text has *less than* 3 lines */
+.hidedots2 {
+    background: white; 
+    width: 100%;
+    height: 54px;       /* 3x line height, to ensure hiding even if empty */
+    position: absolute; /* ensures we're above the dots */
+	z-index: 11;
+}
