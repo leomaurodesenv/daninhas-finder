@@ -1,11 +1,11 @@
- # Daninha's Finder #
+# Daninha's Finder
 
 Links:      
 [Instructables](http://www.instructables.com/id/Daninhas-Finder/) e [Github](https://github.com/leomaurodesenv/daninhas-finder)   
    
 ___
    
-## Equipe ##    
+## Equipe
       
 Alessandro Murta Baldi (alessandromurtabaldi@gmail.com)      
 Gabriel Elias Faria Lemos (gabrielelias.lemos@gmail.com)      
@@ -28,7 +28,7 @@ ___
 ___
    
    
-## Also look ~  	
-* [License GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
-* Site: [Portfolio](http://leonardomauro.com/portfolio/)
+### Also look ~
+- [License GPL v2](LICENSE)
+- Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
+- Site: [Portfolio](http://leonardomauro.com/portfolio/)
